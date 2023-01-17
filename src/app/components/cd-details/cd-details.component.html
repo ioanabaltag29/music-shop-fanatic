@@ -1,0 +1,93 @@
+<a href="http://localhost:4200/store" class="btn btn-dark btn-back">Back</a>
+<br><br>
+
+
+<div class="container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div *ngIf="albumLength == 1">
+                <div class="carousel-item active">
+                    <img [src]="cdData.image_front" alt="cdData.album_name">
+                </div>
+                <div class="carousel-item">
+                    <img [src]="cdData.image_album[0]" alt="cdData.album_name">
+                </div>
+            </div>
+
+            <div *ngIf="albumLength == 2">
+                <div class="carousel-item active">
+                    <img [src]="cdData.image_front" alt="cdData.album_name">
+                </div>
+                <div class="carousel-item">
+                    <img [src]="cdData.image_album[0]" alt="cdData.album_name">
+                </div>
+                <div class="carousel-item">
+                    <img [src]="cdData.image_album[1]" alt="cdData.album_name">
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="details">
+        <div class="header">
+            <p class="album">
+                {{cdData.album_name}}
+            </p>
+            <!-- favorite -->
+            <button mat-fab class="full-heart" *ngIf="cdData.favorite" (click)="deactivateFavorite()">
+                <mat-icon>favorite</mat-icon>
+            </button>
+
+            <button mat-fab class="heart" *ngIf="!cdData.favorite" (click)="changeFavorite()">
+                <mat-icon>favorite</mat-icon>
+            </button>
+
+
+
+        </div>
+        <p class="artist">By {{cdData.artist}}</p>
+        <!-- rating -->
+        <div class="rating">
+            <star-rating [value]="cdData.stars" [totalstars]=" 5" checkedcolor="gold" uncheckedcolor="grey" size="24px"
+                [readonly]="false">
+            </star-rating>
+        </div>
+
+
+        <br>
+        <div class="body">
+            <p class="genres">{{cdData.genre}}</p>
+            <p class="description">{{cdData.description}}</p>
+            <p class="songs">{{cdData.songs}}</p>
+            <p class="price">${{cdData.price}}</p>
+
+
+            <div class="add-button">
+                <button type="button" class="btn btn-light btn-lg btn-add" *ngIf="!cdData.in_cart"
+                    (click)="addToCart()">Add To Cart
+                    <mat-icon>
+                        add_shopping_cart
+                    </mat-icon>
+                </button>
+                <button type="button" class="btn btn-light btn-lg btn-remove" *ngIf="cdData.in_cart"
+                    (click)="removeFromCart()">Remove From
+                    Cart
+                    <mat-icon>
+                        remove_shopping_cart
+                    </mat-icon>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</div>

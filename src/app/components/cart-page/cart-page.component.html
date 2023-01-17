@@ -1,0 +1,73 @@
+<div class="container">
+    <ul>
+        <li *ngFor="let cd of cds">
+            <div>
+                <img src="{{cd.image_front}}" alt="cd.album_name">
+            </div>
+            <div>
+                <p class="cd-name" routerLink="/cd-details/{{cd.id}}">
+                    {{cd.album_name}}
+                </p>
+            </div>
+
+            <div>
+                <select #quantitySelect (change)="changeQuantity(cd,quantitySelect.value)">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div>
+                {{cd.quantity_price | currency}}
+            </div>
+            <div>
+                <button class="remove-button" (click)="removeFromCart(cd)">Remove from cart</button>
+            </div>
+        </li>
+    </ul>
+
+
+    <div class="checkout">
+        <div>
+            <div class="cds-count">{{totalQuantity}}</div>
+            <div class="total-price">{{totalPrice |currency}}</div>
+        </div>
+        <div class="buy">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light purchase-button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Purchase items
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel" class="modal-first-text">Music Shop Fanatic
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            🤘 Thank you for your purchase! 🤘
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                (click)="buyCDs()">Close</button>
+                            <button type="button" class="btn btn-light btn-navigate" [routerLink]="['/store']"
+                                data-bs-dismiss="modal" (click)="buyCDs()">Navigate to
+                                Store</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

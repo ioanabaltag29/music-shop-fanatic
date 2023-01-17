@@ -1,0 +1,110 @@
+.btn-back {
+  margin-left: 100px;
+}
+
+.favorite-true {
+  color: rgb(199, 53, 53);
+  font-size: 50px;
+}
+
+.favorite-false {
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+
+.container > * {
+  min-width: 25rem;
+  max-width: 40rem;
+}
+
+img {
+  flex: 1 0;
+  /* aspect ratio - width/height - not to lose quality*/
+  object-fit: cover;
+  margin: 3rem;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: black;
+  margin-left: 1rem;
+}
+
+.details .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details .album {
+  font-size: 30px;
+  font-weight: bold;
+}
+.details .artist {
+  font-size: 20px;
+}
+
+.details .full-heart {
+  color: #f02479;
+  font-size: 2.5rem;
+}
+.details .heart {
+  font-size: 2.5rem;
+  color: rgb(136, 136, 136);
+}
+
+.body .genres {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0.5 rem 0.5rem 0.5rem 0;
+  border-radius: 2rem;
+  background-color: rgb(231, 231, 231);
+}
+
+.body .price {
+  font-size: 1.8rem;
+  text-align: left;
+  margin: 2rem 2rem 2rem 0;
+}
+.body .price::before {
+  content: "Price: ";
+  color: darkgray;
+}
+
+.body button {
+  border: none;
+  border-radius: 10rem;
+  outline: none;
+}
+
+.btn-add {
+  background-color: #aa6fd1;
+  color: white;
+}
+
+.btn-remove {
+  background-color: #5e178d;
+  color: white;
+}
+
+.mat-focus-indicator.full-heart.mat-fab.mat-button-base.mat-accent {
+  color: white;
+  background-color: #f02479;
+}
+.mat-focus-indicator.heart.mat-fab.mat-button-base.mat-accent {
+  color: rgb(235, 229, 229);
+  background-color: grey;
+}
+
+.container {
+  font-family: CdDetailsFont;
+}

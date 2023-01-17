@@ -1,0 +1,115 @@
+<body>
+    <!-- first picture -->
+    <div id="homepage-first-part" class="containertext-center">
+        <div class='row'></div>
+        <div class="banner">
+            <img class="img-fluid mx-auto d-block" src="assets/images/background/home2.jpg" alt="">
+            <h1 class='heading text-center d-flex justify-content-center'>Music Shop Fanatic</h1>
+        </div>
+    </div>
+
+
+    <!-- carousel -->
+    <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <button class="carousel-button button1" routerLink="/cd-details/1">Buy Now</button>
+                    <img id="cover1" src=" assets/images/cover/1.Billie.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <p id='p1'>Halsey</p>
+                    <p id='p2'>New Album</p>
+                    <button class="carousel-button button2" routerLink="/cd-details/12">Buy Now</button>
+                    <img id="cover2" src="assets/images/cover/7.Halsey.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <p id='p3'>Camila Cabello</p>
+                    <p id='p4'>New Album Release</p>
+                    <button class="carousel-button button3" routerLink="/cd-details/13">Buy Now</button>
+                    <img id="cover3" src="assets/images/cover/8.Camila.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <button class="carousel-button button4" routerLink="/cd-details/3">Buy Now</button>
+                    <img id="cover4" src="assets/images/cover/2.Ariana.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <p id='p5'>Justin Bieber</p>
+                    <p id='p6'>New Album Release</p>
+                    <button class="carousel-button button5" routerLink="/cd-details/11">Buy Now</button>
+                    <img id="cover5" src="assets/images/cover/10.Justin.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!--* New Releases -->
+    <div class="container">
+        <h2 class="my-5 text-center">New Releases</h2>
+        <div class="row my-5 row-releases d-flex justify-content-around">
+            <img class="img-responsive img-thumbnail img-fluid img-release"
+                src="assets/images/CD/disco/44_DuaLipa_front_CD.png" alt="" [routerLink]="['/cd-details/44']">
+
+            <img class="img-responsive img-thumbnail img-fluid img-release"
+                src="assets/images/CD/pop/7_ArianaGrande_front_CD.png" alt="" [routerLink]="['/cd-details/7']">
+
+            <img class="img-responsive img-thumbnail  img-fluid img-release"
+                src="assets/images/CD/pop/9_CarlyRaeJepsen_front_CD.png" alt="" [routerLink]="['/cd-details/9']">
+
+        </div>
+
+        <!--* Featured -->
+        <h2 class="my-5 text-center">Featured</h2>
+        <div class="row my-5 d-flex justify-content-around">
+            <div class="col-lg-3 center my-3">
+                <img src="assets/images/CD/rock/29_Guns'n'Roses_front_CD.png" alt=""
+                    class="img-responsive img-thumbnail img-fluid img-featured" [routerLink]="['/cd-details/29']">
+            </div>
+            <div class="col-lg-3 center my-3">
+                <img src="assets/images/CD/hip-hop-rap/23_PopSmoke_front_CD.png" alt=""
+                    class="img-responsive img-thumbnail img-fluid img-featured" [routerLink]="['/cd-details/23']">
+            </div>
+            <div class="col-lg-3 center my-3">
+                <img src="assets/images/CD/soul/40_AmyWinehouse_front_CD.png" alt=""
+                    class="img-responsive img-thumbnail img-fluid img-featured" [routerLink]="['/cd-details/40']">
+            </div>
+            <div class="col-lg-3 center my-3">
+                <img src="assets/images/CD/jazz/46_NinaSimone_front_CD.png" alt=""
+                    class="img-responsive img-thumbnail img-fluid img-featured" [routerLink]="['/cd-details/46']">
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="navigate-to-store">
+        <button type="button" class="btn btn-light btn-lg btn-navigate-to-store" routerLink="/store">Go to Store
+        </button>
+    </div>
+
+    <app-footer></app-footer>
+</body>

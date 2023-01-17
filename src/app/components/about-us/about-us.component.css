@@ -1,0 +1,26 @@
+body,
+html {
+  height: 60%;
+  margin: 0;
+  font-family: CdDetailsFont;
+  font-size: 20px;
+  background-color: rgb(106, 99, 110);
+}
+
+.background-img {
+  background-image: url("/assets/images/background/login5.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  color: white;
+  margin: 0 20px 0 20px;
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}

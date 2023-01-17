@@ -1,0 +1,77 @@
+.container-fluid {
+  background-color: rgb(106, 99, 110);
+  color: white;
+  /* margin: 10px 0 0 0; */
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row-first {
+  padding-top: 20px;
+}
+.contact {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding-left: 450px;
+}
+
+.program {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.row1 {
+  display: inline-flex;
+}
+.row2 {
+  display: inline-flex;
+}
+
+.row3 {
+  display: inline-flex;
+}
+
+.icon {
+  margin-right: 1.2rem;
+}
+
+.bi {
+  margin-top: 50px;
+  width: 150px;
+}
+.bi:hover {
+  cursor: pointer;
+}
+
+.schedule-1 {
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.schedule-1 p {
+  margin: 10px;
+}
+
+.schedule-2 {
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.schedule-2 p {
+  margin: 10px;
+}

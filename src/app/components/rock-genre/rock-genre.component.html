@@ -1,0 +1,69 @@
+<body>
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-6">
+                <div class="dropdown ">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter by Genre
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" [routerLink]="['/store']">Show All</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/store/pop-genre']">Pop</a></li>
+                        <li><a class=" dropdown-item active" [routerLink]="['/store/rock-genre']">Rock</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/store/jazz-blues-genre']">Jazz/Blues</a></li>
+                        <li><a class=" dropdown-item" [routerLink]="['/store/hip-hop-rap-genre']">Hip-hop/Rap</a></li>
+                        <li><a class=" dropdown-item" [routerLink]="['/store/disco-genre']">Disco</a></li>
+                        <li><a class=" dropdown-item " [routerLink]="['/store/electronica-genre']">Electronica</a>
+                        </li>
+                        <li><a class=" dropdown-item" [routerLink]="['/store/funk-soul-genre']">Funk/Soul</a></li>
+                        <li><a class=" dropdown-item" [routerLink]="['/store/soundtrack-genre']">Soundtrack</a></li>
+                        <li><a class=" dropdown-item" [routerLink]="['/store/r&b-genre']">R&B</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="search-bar">
+                    <input class=" mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="artist"
+                        [(ngModel)]="searchKey">
+                    <button class="btn btn-outline-success my-2 my-sm-0 search-button" type="submit"
+                        (click)="search()">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="background-img">
+
+        <br><br>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+            <div *ngFor="let cd of cds | paginate: {itemsPerPage:6, currentPage: pagination};">
+                <div class="col d-flex justify-content-evenly flex-wrap">
+                    <div class="card" style="width: 18rem;" [routerLink]="['/cd-details',cd.id]">
+                        <img src=" {{cd.image_front}}" class="card-img-top ">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">{{cd.album_name}}</h4>
+                            <h5 class="card-title" style="text-align: center;">{{cd.artist}}</h5>
+                            <p class="card-text"></p>
+                            <!-- <a href="" class="btn btn-dark" [routerLink]="['/cd-details',cd.id]">More Info</a> -->
+                            <!-- <button>More Informations</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <pagination-controls class="pagination justify-content-center" (pageChange)="pagination = $event">
+            </pagination-controls>
+        </nav>
+
+
+    </div>
+    <app-footer></app-footer>
+</body>

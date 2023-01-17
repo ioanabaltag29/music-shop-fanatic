@@ -1,0 +1,1117 @@
+{
+  "store": [
+    {
+      "id": 1,
+      "artist": "Billie Eilish",
+      "album_name": "Happier Than Ever",
+      "genre": "Pop",
+      "price": 14,
+      "favorite": true,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/pop/1_Billie_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/1_Billie_1_CD.png"
+      ],
+      "record_label": "Interscope Records",
+      "release_year": "2021",
+      "cd_no": 1,
+      "description": "Happier Than Ever is the second studio album by American singer Billie Eilish. It was released on July 30, 2021, by Darkroom and Interscope Records. Eilish wrote the album with her frequent collaborator, her brother Finneas O'Connell, who produced the album himself. Eilish cited self-reflection during the COVID-19 pandemic as the biggest inspiration for the record.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 3,
+      "quantity_price": 42
+    },
+    {
+      "id": 2,
+      "artist": "Lady Gaga",
+      "album_name": "The Fame Monster",
+      "genre": "Pop",
+      "price": 10,
+      "favorite": true,
+      "stars": 3,
+      "image_front": "assets/images/CD/pop/2_LadyGaga_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/2_LadyGaga_1_CD.png",
+        "assets/images/CD/pop/2_LadyGaga_2_CD.png"
+      ],
+      "record_label": "Animato Music/ Universal Music",
+      "release_year": "2009",
+      "cd_no": 2,
+      "description": "A electropop record, The Fame Monster has influences of disco, glam rock, and synthpop music of the 1970s and 1980s, as well as industrial and gothic music. The album was also inspired by fashion shows and runways. According to Gaga, the album deals with the darker side of fame, with its theme lyrically expressed through a monster metaphor. The cover artwork, shot by Hedi Slimane, has a Gothic theme and was declined for release by her record company, but Gaga persuaded them. The Fame Monster received generally positive reviews from music critics. The album charted as The Fame in some countries, and topped the charts in Australia, Belgium, Finland, New Zealand, and Poland. In the United States, the EP reached number five on the Billboard 200 and topped the Dance/Electronic Albums chart. The album has won multiple awards since its release. It was nominated in a total of six categories at the 53rd Annual Grammy Awards, including Gaga's second consecutive Album of the Year nomination. It won three, including Best Pop Vocal Album.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 10
+    },
+    {
+      "id": 3,
+      "artist": "Ariana Grande",
+      "album_name": "Positions",
+      "genre": [
+        "Pop",
+        "Funk/Soul",
+        "RnB"
+      ],
+      "price": 13,
+      "favorite": false,
+      "stars": 4.9,
+      "image_front": "assets/images/CD/pop/3_ArianaGrande_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/3_ArianaGrande_1_CD.png"
+      ],
+      "record_label": "Republic Records",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "Positions is the 6th studio album by American singer Ariana Grande, released on October 30, 2020, by Republic Records. The singer worked with a variety of producers on the album, including Tommy Brown, Anthony M. Jones, London on da Track, Murda Beatz, the Rascals, Scott Storch, Shea Taylor and Charles Anderson. The album expands on the R&B and trap-pop sound of its predecessors, Sweetener (2018) and Thank U, Next (2019), while incorporating elements of hip hop, neo soul and funk. Lyrically, Positions finds Grande discussing themes of sex and romance after tragedy. Doja Cat, the Weeknd and Ty Dolla Sign make guest appearances in the album. Upon release, the album garnered generally favorable reviews from music critics, who complimented Grande's vocals but criticized its production and lyrics.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 13
+    },
+    {
+      "id": 4,
+      "artist": "Miley Cyrus",
+      "album_name": "Plastic Hearts",
+      "genre": [
+        "Pop",
+        "Rock"
+      ],
+      "price": 12,
+      "stars": 4.3,
+      "image_front": "assets/images/CD/pop/4_MileyCyrus_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/4_MileyCyrus_1_CD.png"
+      ],
+      "record_label": "RCA Records Sony Music",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "Miley Cyrus has been working on the new album Plastic Hearts for more than two years. She thought she was in control of it all, both the album and life in general. But when her home burned down during a California forest fire in 2018, she was suddenly forced to reconsider the situation and, in more ways than one, start from scratch. Her then livelihood was destroyed and so did the relevance of the music she had been working on. In 2019, she released the EP She is Coming, which should have been the start of an EP series, but Miley realized that the format was not the right way to tell her story. That's why an entire studio album in the form of Plastic Hearts is coming instead .",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 5,
+      "quantity_price": 60
+    },
+    {
+      "id": 5,
+      "artist": "Bon Jovi",
+      "album_name": "Greatest Hits: The Ultimate Collection",
+      "genre": [
+        "Pop",
+        "Rock"
+      ],
+      "price": 11,
+      "stars": 3,
+      "image_front": "assets/images/CD/rock/5_BonJovi_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/5_BonJovi_1_CD.png"
+      ],
+      "record_label": "Universal Music",
+      "release_year": "2010",
+      "cd_no": 1,
+      "description": "It’s been a long 16 years since Bon Jovi was last compiled, when Cross Road arrived for the holiday season of 1994, two years after Keep the Faith capped off a near-decade long run of dominance for the Jersey rockers. As it turned out, it was the first act of Bon Jovi’s career. A subdued second act followed in the ‘90s, with Jon Bon Jovi flirting with a solo career once again before returning to the fold late in the decade, with the band setting out for a decade of professionalism, sometimes cresting into the charts -- usually with the assist of a canny country crossover -- sometimes not. Greatest Hits condenses the highlights of this journey in a mere 16 songs, just two longer than Cross Road -- its simultaneously released cousin, Ultimate Greatest Hits, adds a disc with 12 additional songs -- and two of those are new tunes that are unlikely to show up on any subsequent best of.",
+      "songs": [
+        ""
+      ],
+      "favorite": true,
+      "in_cart": false,
+      "quantity": 2,
+      "quantity_price": 22
+    },
+    {
+      "id": 6,
+      "artist": "BLACKPINK",
+      "album_name": "THE ALBUM",
+      "genre": "Pop",
+      "price": 14,
+      "stars": 4.2,
+      "favorite": true,
+      "image_front": "assets/images/CD/pop/6_BLACKPINK_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/6_BLACKPINK_1_CD.png"
+      ],
+      "record_label": "YG Entertainment, Interscope",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "The Album (stylized in all caps) is the debut Korean-language studio album by South Korean girl group Blackpink, released on October 2, 2020, by YG Entertainment and Interscope. It is the group's first full-length work since their debut in 2016. For the album, Blackpink recorded over ten new songs and worked with a variety of producers, including Teddy, Tommy Brown, R. Tee, Mr. Franks and 24. Eight songs made the final track list, including two collaborations: 'Ice Cream' with Selena Gomez, and 'Bet You Wanna' featuring Cardi B. The album explores the group's mature side through the themes of love and the complexities of growing up. Musically, The Album utilizes pop, R&B, hip hop, EDM and trap elements.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 3,
+      "quantity_price": 42
+    },
+    {
+      "id": 7,
+      "artist": "Ariana Grande",
+      "album_name": "Sweetener",
+      "genre": [
+        "Pop",
+        "Funk/Soul",
+        "RnB",
+        "Electronica"
+      ],
+      "price": 11,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/pop/7_ArianaGrande_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/7_ArianaGrande_1_CD.png"
+      ],
+      "record_label": "Island Records",
+      "release_year": "2018",
+      "cd_no": 1,
+      "description": "Sweetener is the 4th studio album by American singer Ariana Grande. It was released on August 17, 2018, through Republic Records. The album is a pop, R&B and trap album, with production from Charles Anderson, Hit-Boy, Ilya Salmanzadeh, Max Martin and Pharrell Williams. Sweetener also contains guest vocals by Williams, Nicki Minaj and Missy Elliott.",
+      "songs": [
+        ""
+      ],
+      "favorite": true,
+      "in_cart": false,
+      "quantity": 5,
+      "quantity_price": 55
+    },
+    {
+      "id": 8,
+      "artist": "The Weeknd",
+      "album_name": "After Hours",
+      "genre": [
+        "Pop",
+        "Funk/Soul",
+        "Electronica",
+        "Hip-Hop/Rap"
+      ],
+      "price": 12,
+      "stars": 3.9,
+      "image_front": "assets/images/CD/soul/8_TheWeeknd_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soul/8_TheWeeknd_1_CD.png"
+      ],
+      "record_label": "The Weeknd",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 9,
+      "artist": "Carly Rae Jepsen",
+      "album_name": "Dedicated Side B",
+      "genre": "Pop",
+      "price": 13,
+      "stars": 2.9,
+      "image_front": "assets/images/CD/pop/9_CarlyRaeJepsen_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/9_CarlyRaeJepsen_1_CD.png"
+      ],
+      "record_label": "Interscope",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "While recording Dedicated, Jepsen confirmed that she had written 'nearly 200 songs' for the album. Over the year following the release of Dedicated, speculation grew as to whether Jepsen would release a companion piece to Dedicated as she had done for her previous album with Emotion: Side B. While discussing the influences for the tracks in an interview with Paper's Brendan Wetmore, Jepsen stated that she 'wanted the beach-y vibe of Beach Boys, the stoner sort of — where you're following a guy around at the beach and like making love and doing all the things that are very holiday-ish. More allowing ourselves to get as weird as we wanted that day'. ",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 10,
+      "artist": "Måneskin",
+      "album_name": "Il Ballo Della Vita",
+      "genre": "Rock",
+      "price": 12,
+      "stars": 4,
+      "image_front": "assets/images/CD/rock/10_MANESKIN_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/10_MANESKIN_1_CD.png"
+      ],
+      "record_label": "Sony Music",
+      "release_year": "2018",
+      "cd_no": 1,
+      "description": "Like in the previous EP Chosen the band's sound is modern Italian pop rock with influences from funk, reggae and ska. In The Upcoming interview they cited as inspiration for it Led Zeppelin, Arctic Monkeys, Harry Styles, Red Hot Chili Peppers, and Bruno Mars. The album's title is meaning a 'celebration of youth, of freedom'. The central figure of the album lyrics is the fictional muse 'Marlena', a 'woman who represents beauty and the message we want to communicate: a message of freedom of choice, of attitude, of style to which we have tried to give a face, a name and a voice'. Another protagonist is a man who wants to be with her until the very end.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 3,
+      "quantity_price": 36
+    },
+    {
+      "id": 11,
+      "artist": "Justin Bieber",
+      "album_name": "Justice",
+      "genre": "Pop",
+      "price": 14,
+      "stars": 4.9,
+      "image_front": "assets/images/CD/pop/11_JustinBieber_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/11_JustinBieber_1_CD.png"
+      ],
+      "record_label": "Def Jam Records",
+      "release_year": "2021",
+      "cd_no": 1,
+      "description": "Justice is the sixth studio album by Canadian singer Justin Bieber. It was released on March 19, 2021, by Def Jam Recordings. The album arrived thirteen months after Bieber's fifth studio album, Changes (2020). Four singles preceded the album: 'Holy', 'Lonely', 'Anyone', and 'Hold On', all of which reached top 20 of the U.S. Billboard Hot 100, at numbers three, twelve, six, and twenty, respectively. The fifth single 'Peaches', featuring Caesar and Giveon, entered atop the Hot 100, marking Bieber's seventh number-one single in the US and fourth to debut at the summit. Justice debuted atop the charts of ten countries, including the U.S. Billboard 200, where it marked Bieber's eighth chart-topper, and at 27 years old, made him the youngest solo artist to achieve as many number-one albums in the US. 'Peaches' and Justice held the number one spots simultaneously, making Bieber the third act ever to achieve the feat. The album was certified platinum by the Recording Industry Association of America (RIAA).",
+      "songs": [
+        ""
+      ],
+      "favorite": false,
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 14
+    },
+    {
+      "id": 12,
+      "artist": "Halsey",
+      "album_name": "Manic",
+      "genre": [
+        "Electronica",
+        "Pop",
+        "Hip-Hop/Rap"
+      ],
+      "price": 9,
+      "stars": 3.8,
+      "image_front": "assets/images/CD/electro/12_Halsey_front_CD.png",
+      "image_album": [
+        "assets/images/CD/electro/12_Halsey_1_CD.png"
+      ],
+      "record_label": "Capitol Records",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "Manic is the third studio album by American singer-songwriter Halsey. It was released on January 17, 2020, through Capitol Records. It was preceded by the release of three singles: 'Without Me', 'Graveyard' and 'You Should Be Sad', with featured guest appearances by Dominic Fike, Alanis Morissette, and Suga of South Korean boy band BTS. The album debuted at number two on the Billboard 200 albums chart in the United States, becoming Halsey's third top-two album on the chart and her biggest album debut in the country to date, selling 239,000 units in its first week. Following its release, Manic was certified Platinum by the Recording Industry Association of America (RIAA) in the US, becoming the first album released in 2020 to achieve this. Music production was mainly handled by Halsey herself with the addition of frequent and new collaborators, such as Benny Blanco, Cashmere Cat, Finneas, Greg Kurstin, Jon Bellion, Lido, and Louis Bell, among others. Musically, Manic is primarily an electropop, hip hop, and alternative rock record with influences of several other genres, including country, K-pop, pop, and R&B. Halsey described the album as changing its mind as much as she does.",
+      "songs": [
+        ""
+      ],
+      "favorite": true
+    },
+    {
+      "id": 13,
+      "artist": "Camila Cabello",
+      "album_name": "Romance",
+      "genre": "Disco",
+      "price": 12,
+      "stars": 3.1,
+      "image_front": "assets/images/CD/disco/13_CamilaCabello_front_CD.png",
+      "image_album": [
+        "assets/images/CD/disco/13_CamilaCabello_1_CD.png"
+      ],
+      "record_label": "Syco Music",
+      "release_year": "2019",
+      "cd_no": 1,
+      "description": "Romance is the second studio album by Cuban-American singer and songwriter Camila Cabello. It was released on December 6, 2019, through Epic Records and Syco Music. The singer recorded the album from November 2018 to October 2019. It was produced by Frank Dukes, Louis Bell, the Monsters and the Strangerz, John Hill, Andrew Watt and Finneas, among others. Cabello finished recording Romance on October 31, 2019, and the next day submitted the masters for the album. On November 13, Cabello announced that the album would be released on December 6, 2019. Musically, it is a pop record that contains R&B, Latin pop and rock influences.",
+      "songs": [
+        ""
+      ],
+      "favorite": true
+    },
+    {
+      "id": 14,
+      "artist": "Avril Lavigne",
+      "album_name": "Avril Lavigne",
+      "genre": "Rock",
+      "price": 10,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/rock/14_AvrilLavigne_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/14_AvrilLavigne_1_CD.png"
+      ],
+      "record_label": "Epic Records",
+      "release_year": "2013",
+      "cd_no": 1,
+      "description": "Avril Lavigne is the self-titled fifth studio album by Canadian singer Avril Lavigne. It was released on November 1, 2013, through Epic Records in North America and Sony Music Entertainment worldwide. Lavigne collaborated with numerous producers including Martin Johnson, Peter Svensson, David Hodges, Matt Squire, and Chad Kroeger. In both musical and lyrical aspects, the album represents a departure from the acoustic-oriented production of Goodbye Lullaby, featuring a more uptempo pop sound juxtaposed with power and piano ballads. Avril Lavigne also incorporates electronic music, industrial and punk rock. The album features two vocal collaborations: Kroeger and American industrial metal singer Marilyn Manson, making Avril Lavigne Lavigne's first album to contain featured vocalists. The album marks her first and only release through Epic Records, and is her final release for Sony Music, to which, under BMG, she signed in 2000.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false
+    },
+    {
+      "id": 15,
+      "artist": "KHALID",
+      "album_name": "American Teen",
+      "genre": "RnB",
+      "price": 11,
+      "stars": 4.1,
+      "image_front": "assets/images/CD/rock/15_KHALID_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/15_KHALID_1_CD.png"
+      ],
+      "record_label": "Sony Music",
+      "release_year": "2017",
+      "cd_no": 1,
+      "description": "American Teen is the debut studio album by American singer Khalid. It was released on March 3, 2017, by Right Hand Music Group and RCA Records. The album was supported by the singles 'Location', 'Young Dumb & Broke' and 'Saved'. In October 2017, the album was certified platinum by the Recording Industry Association of America (RIAA) for accumulating over one million in combined pure sales and album-equivalent units. The album received a Grammy Award nomination for Best Urban Contemporary Album while its lead single 'Location' was nominated for Best R&B Song at the 60th Annual Grammy Awards. In August 2018, the album was certified double platinum by the RIAA.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 16,
+      "artist": "Beyonce",
+      "album_name": "B'day",
+      "genre": "Funk/Soul",
+      "price": 11,
+      "stars": 4.6,
+      "image_front": "assets/images/CD/soul/16_Beyonce_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soul/16_Beyonce_1_CD.png"
+      ],
+      "record_label": "Columbia",
+      "release_year": "2008",
+      "cd_no": 1,
+      "description": "B'Day is the second studio album by American singer Beyoncé. It was released to coincide with her twenty-fifth birthday on September 4, 2006, in various countries and a day later in the United States by Columbia Records, Music World Entertainment, and Sony Urban Music. The album was originally planned as a follow-up to Beyoncé's 2003 solo debut Dangerously in Love to be released in 2004; however, it was delayed to accommodate the recording of Destiny's Child's final album Destiny Fulfilled (2004) and the singer's starring role in the 2006 film Dreamgirls. While on vacation after filming, Beyoncé began contacting various producers and rented Sony Music Studios, completing B'Day in two weeks.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 11
+    },
+    {
+      "id": 17,
+      "artist": "Beyonce",
+      "album_name": "Lemonade",
+      "genre": [
+        "Funk/Soul",
+        "Pop"
+      ],
+      "price": 16,
+      "stars": 3.7,
+      "image_front": "assets/images/CD/soul/17_Beyonce_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soul/17_Beyonce_1_CD.png"
+      ],
+      "record_label": "RCA Records",
+      "release_year": "2016",
+      "cd_no": 2,
+      "description": "Lemonade is the sixth studio album by American singer Beyoncé. It was released on April 23, 2016, by Parkwood Entertainment and Columbia Records, accompanied by a 65-minute film of the same title on HBO. It is Beyoncé's second 'visual album', following her self-titled fifth studio album (2013), and a concept album with a song cycle that relates Beyoncé's emotional journey after her husband's infidelity in a generational and racial context. Primarily an R&B and art pop album, Lemonade encompasses a variety of genres, including reggae, blues, rock, hip hop, soul, funk, Americana, country, gospel, electronic, and trap. It features guest vocals from James Blake, Kendrick Lamar, the Weeknd, and Jack White, and contains samples and interpolations of a number of hip hop and rock songs.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 18,
+      "artist": "Harry Styles",
+      "album_name": "Fine Line",
+      "genre": "Pop",
+      "price": 15,
+      "stars": 3.9,
+      "image_front": "assets/images/CD/pop/18_HarryStyles_front_CD.png",
+      "image_album": [
+        "assets/images/CD/pop/18_HarryStyles_1_CD.png"
+      ],
+      "record_label": "Columbia Records",
+      "release_year": "2019",
+      "cd_no": 1,
+      "description": "Fine Line is the second studio album by English singer and songwriter Harry Styles, released on 13 December 2019 by Columbia and Erskine Records. The album's themes involve breakups, happiness, and 'having sex and feeling sad', as Styles has said himself. The record has been described as pop rock, with elements of prog-pop, psychedelic pop, folk, soul, funk and indie pop. Supported by six singles—'Lights Up', 'Adore You', 'Falling', 'Watermelon Sugar', 'Golden' and 'Treat People with Kindness'—Fine Line debuted at number three on the UK Albums Chart and number one on the Billboard 200, making it Styles' second consecutive number-one album in the US. The album had the third-largest sales week of 2019 in the US and broke the record as the biggest debut from a British male artist since Nielsen SoundScan began, earning 478,000 album-equivalent units. It has been certified double platinum in the US for combined sales and album-equivalent units of over two million units in the country.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 19,
+      "artist": "Travis Scott",
+      "album_name": "Astroworld",
+      "genre": "Hip-Hop/Rap",
+      "price": 12,
+      "stars": 4.2,
+      "image_front": "assets/images/CD/hip-hop-rap/19_TravisScott_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/19_TravisScott_1_CD.png"
+      ],
+      "record_label": "RCA Records",
+      "release_year": "2018",
+      "cd_no": 1,
+      "description": "Astroworld is the third studio album by American rapper and record producer Travis Scott. It was released on August 3, 2018, through Cactus Jack Records and Grand Hustle Records, and distributed by Epic Records. The album follows his second studio album Birds in the Trap Sing McKnight (2016), and his collaborative album Huncho Jack, Jack Huncho (2017) with Quavo. The album features guest vocals from The Weeknd, Kid Cudi, Frank Ocean, Drake, James Blake, Philip Bailey, 21 Savage, Swae Lee, Gunna, Nav, Quavo, Takeoff, Juice Wrld, Sheck Wes, and Don Toliver, among others. Production was handled by multiple producers, including Scott himself, Mike Dean, Allen Ritter, Hit-Boy, WondaGurl, Tay Keith, Tame Impala, Frank Dukes, Sonny Digital, Murda Beatz, and Thundercat.",
+      "songs": [
+        ""
+      ],
+      "favorite": true
+    },
+    {
+      "id": 20,
+      "artist": "NWA",
+      "album_name": "Straight Outta Compton",
+      "genre": "Hip-Hop/Rap",
+      "price": 7,
+      "stars": 3,
+      "image_front": "assets/images/CD/hip-hop-rap/20_NWA_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/20_NWA_1_CD.png"
+      ],
+      "record_label": "FMI",
+      "release_year": "2008",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 7
+    },
+    {
+      "id": 21,
+      "artist": "2Pac",
+      "album_name": "Still I Rise",
+      "genre": [
+        "Hip-Hop/Rap",
+        "Electronica"
+      ],
+      "price": 7,
+      "stars": 4.9,
+      "image_front": "assets/images/CD/hip-hop-rap/21_2Pac_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/21_2Pac_1_CD.png"
+      ],
+      "record_label": "Polydor",
+      "release_year": "2001",
+      "cd_no": 1,
+      "description": "Still I Rise is a collaboration album by 2Pac and the Outlawz. The album excludes some of the original line up of the Outlawz, including Hussein Fatal, who had left the group as he had refused to sign to Death Row. The album contains all previously unreleased, albeit remixed material. It was released on December 21, 1999, by Death Row Records and Interscope Records. The album features production from 2Pac's close producers Tony Pizarro, Johnny 'J' and QDIII, and appearances from Big Syke and Nate Dogg. The album features mostly tracks from Shakur while he was on Death Row.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 7
+    },
+    {
+      "id": 22,
+      "artist": "Future",
+      "album_name": "High Off Life",
+      "genre": "Hip-Hop/Rap",
+      "price": 12,
+      "stars": 3.1,
+      "image_front": "assets/images/CD/hip-hop-rap/22_Future_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/22_Future_1_CD.png"
+      ],
+      "record_label": "Epic",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "High Off Life is the eighth studio album by the American rapper Future, released on May 15, 2020, by Freebandz and Epic Records. The album was executive produced by DJ Esco, a close friend and frequent producer of Future. It features guest appearances by Travis Scott, YoungBoy Never Broke Again, Young Thug, Lil Uzi Vert, Drake, Lil Durk, Meek Mill, Doe Boy, DaBaby, and Lil Baby.",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 12
+    },
+    {
+      "id": 23,
+      "artist": "Pop Smoke",
+      "album_name": "Meet The Woo",
+      "genre": "Hip-Hop/Rap",
+      "price": 13,
+      "stars": 4.2,
+      "image_front": "assets/images/CD/hip-hop-rap/23_PopSmoke_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/23_PopSmoke_1_CD.png"
+      ],
+      "record_label": "Republic",
+      "release_year": "2019",
+      "cd_no": 1,
+      "description": "Meet the Woo (alternatively titled Meet the Woo, Vol. 1) is the debut mixtape by American rapper Pop Smoke. It was released by Victor Victor Worldwide and Republic Records on July 26, 2019. Meet the Woo is a drill and grime record. All the tracks were mostly written by Pop Smoke and British producer 808MeloBeats, also known as 808Melo, with production from the latter, Rico Beats, and Yoz Beats. The mixtape received generally favorable reviews from music critics, who praised Meet the Woo for introducing drill music to the mainstream. A total of two singles were released from 2019 to 2020. The lead single 'Welcome to the Party' became a hit in New York, spawning two remixes from Trinidadian rapper Nicki Minaj and British rapper Skepta. After Pop Smoke was shot and killed at the age of 20, the mixtape's second single 'Dior' became the rapper's first solo and posthumous US Billboard Hot 100 hit, peaking at number 22.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 24,
+      "artist": "Kendrick Lamar",
+      "album_name": "DAMN.",
+      "genre": "Hip-Hop/Rap",
+      "price": 11,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/hip-hop-rap/24_KendrickLamar_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/24_KendrickLamar_1_CD.png"
+      ],
+      "record_label": "Polydor",
+      "release_year": "2017",
+      "cd_no": 1,
+      "description": "Damn (stylized as DAMN.) is the fourth studio album by American rapper Kendrick Lamar. It was released on April 14, 2017, through Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album features production from a variety of record producers, including executive producer and Top Dawg Entertainment label-head Anthony 'Top Dawg' Tiffith, Sounwave, DJ Dahi, Mike Will Made It, and Ricci Riera; as well as further production contributions from James Blake, Steve Lacy, BadBadNotGood, Greg Kurstin, The Alchemist, and 9th Wonder, among others. Damn features appearances from singers Rihanna and Top Dawg singer Zacari, along with Irish rock band U2.",
+      "songs": [
+        ""
+      ],
+      "favorite": true,
+      "in_cart": false,
+      "quantity": 5,
+      "quantity_price": 55
+    },
+    {
+      "id": 25,
+      "artist": "Kendrick Lamar",
+      "album_name": "To Pimp A Butterfly",
+      "genre": "Hip-Hop/Rap",
+      "price": 8,
+      "stars": 4.2,
+      "image_front": "assets/images/CD/hip-hop-rap/25_KendrickLamar_front_CD.png",
+      "image_album": [
+        "assets/images/CD/hip-hop-rap/25_KendrickLamar_1_CD.png"
+      ],
+      "record_label": "Polydor",
+      "release_year": "2015",
+      "cd_no": 1,
+      "description": "To Pimp a Butterfly is the third studio album by American rapper Kendrick Lamar. It was released on March 15, 2015, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album was recorded in studios throughout the United States, with production from Sounwave, Terrace Martin, Taz 'Tisa' Arnold, Thundercat, Rahki, LoveDragon, Flying Lotus, Pharrell Williams, Boi-1da, Knxwledge, and several other high-profile hip hop producers, as well as executive production from Dr. Dre and Anthony 'Top Dawg' Tiffith. Guest appearances include Thundercat, George Clinton, Bilal, Anna Wise, Snoop Dogg, James Fauntleroy, Ronald Isley, and Rapsody.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 26,
+      "artist": "Rag’n’Bone Man",
+      "album_name": "Life By Misadventure",
+      "genre": [
+        "Pop",
+        "R&B",
+        "Funk/Soul",
+        "Jazz/Blues"
+      ],
+      "price": 14,
+      "stars": 3.7,
+      "image_front": "assets/images/CD/soul/26_RagnBoneMan_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soul/26_RagnBoneMan_1_CD.png"
+      ],
+      "record_label": "Columbia/Sony Music",
+      "release_year": "2021",
+      "cd_no": 1,
+      "description": "Rag‘n’Bone Man’s second album opens with hope. It’s in the sound of birdsong, filtering through the dawn sky in Nashville, where the artist born Rory Graham wrote these songs. It’s in the lyrics – words of love to friends, family, his young son, and himself. And it’s in his unmistakable voice, grown all the richer from experience as he delves into his past, present, and future. This is an album, as Graham puts it, about growing up.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 27,
+      "artist": "Imagine Dragons",
+      "album_name": "Mercury - Act 1",
+      "genre": "Rock",
+      "price": 13,
+      "stars": 3.2,
+      "image_front": "assets/images/CD/rock/27_ImagineDragons_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/27_ImagineDragons_1_CD.png"
+      ],
+      "record_label": "Interscope Records",
+      "release_year": "2021",
+      "cd_no": 1,
+      "description": "The album was preceded by three singles. The two lead singles 'Follow You' and 'Cutthroat' were released on March 12, 2021. The third single 'Wrecked', which was inspired by the death of Reynolds' sister-in-law, was released on July 2, 2021. The album was released on September 3, 2021. 'Monday' became the fourth single on the day of the album's release.",
+      "songs": [
+        ""
+      ],
+      "favorite": true,
+      "in_cart": false,
+      "quantity": 3,
+      "quantity_price": 39
+    },
+    {
+      "id": 28,
+      "artist": "Imagine Dragons",
+      "album_name": "Evolve",
+      "genre": "Rock",
+      "price": 8,
+      "stars": 3.9,
+      "image_front": "assets/images/CD/rock/28_ImagineDragons_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/28_ImagineDragons_1_CD.png"
+      ],
+      "record_label": "Polydor",
+      "release_year": "2017",
+      "cd_no": 1,
+      "description": "Evolve (stylized as ƎVOLVE) is the third studio album by American pop rock band Imagine Dragons, released on June 23, 2017, by Kidinakorner and Interscope Records. After the release of their previous album Smoke + Mirrors (2015) and its respective world tour, a self-imposed hiatus for 2016 and cryptic messages from the band through their social media gained anticipation for their third album; it was finally announced on May 9, 2017, along with the initiation of its pre-order. In comparison to Smoke + Mirrors and their 2012 debut Night Visions, frontman Dan Reynolds called the album an 'evolution' for the band.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 29,
+      "artist": "Guns'n'Roses",
+      "album_name": "Guns'n'Roses Greatest Hits",
+      "genre": "Rock",
+      "price": 11,
+      "stars": 4.1,
+      "image_front": "assets/images/CD/rock/29_Guns'n'Roses_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/29_Guns'n'Roses_1_CD.png"
+      ],
+      "record_label": "Universal Music",
+      "release_year": "2008",
+      "cd_no": 1,
+      "description": "If time is the true test, then Guns N' Roses' Greatest Hits confirms that they really were one of the greatest rock & roll bands in the world. While, in retrospect, fellow graduates of the class of 1987 are about as cool as poodle perms and spandex, the LA bad boys still rock like gods. Listening to the sun-drenched chords of 'Paradise City' and the ensuing stadium-sized swagger is enough to make wearing leather trousers and bandanas seem like a good idea. Of course, it helped that for them sex, drugs and rock & roll was a way of life, not a fashion statement. As Axl Rose wails 'I wanna watch you bleed' on 'Welcome to the Jungle', like a chain-smoking lunatic possessed, it's hard not to believe he meant it. Yet equally, it was his surprisingly poetic nature that made genuinely touching love songs of 'Patience' and 'Sweet Child of Mine'. ",
+      "songs": [
+        ""
+      ],
+      "favorite": false,
+      "in_cart": false,
+      "quantity": 3,
+      "quantity_price": 33
+    },
+    {
+      "id": 30,
+      "artist": "Pink Floyd",
+      "album_name": "The Dark Side Of The Moon",
+      "genre": "Rock",
+      "price": 8,
+      "stars": 4.2,
+      "image_front": "assets/images/CD/rock/30_PinkFloyd_front_CD.png",
+      "image_album": [
+        "assets/images/CD/rock/30_PinkFloyd_1_CD.png"
+      ],
+      "record_label": "Harvest",
+      "release_year": "1973",
+      "cd_no": 1,
+      "description": "The Dark Side of the Moon is the eighth studio album by the English rock band Pink Floyd, released on 1 March 1973 by Harvest Records. Primarily developed during live performances, the band premiered an early version of the record several months before recording began. The record was conceived as an album that focused on the pressures faced by the band during their arduous lifestyle, and dealing with the apparent mental health problems suffered by former band member Syd Barrett, who departed the group in 1968. New material was recorded in two sessions in 1972 and 1973 at Abbey Road Studios in London. The record builds on ideas explored in Pink Floyd's earlier recordings and performances, while omitting the extended instrumentals that characterised their earlier work. The group employed multitrack recording, tape loops, and analogue synthesisers, including experimentation with the EMS VCS 3 and a Synthi A. Engineer Alan Parsons was responsible for many sonic aspects and the recruitment of singer Clare Torry, who appears on 'The Great Gig in the Sky'.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 31,
+      "artist": "",
+      "album_name": "Frozen 2 Soundtrack",
+      "genre": "Soundtrack",
+      "price": 9,
+      "stars": 4.1,
+      "image_front": "assets/images/CD/soundtrack/31_Frozen2_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soundtrack/31_Frozen2_1_CD.png"
+      ],
+      "record_label": "Walt Disney Records",
+      "release_year": "2019",
+      "cd_no": 1,
+      "description": "Frozen II is the soundtrack album to the Disney animated film of the same name. It was mainly composed by Kristen Anderson-Lopez and Robert Lopez, in addition to the end credits covers of three of the songs respectively by Panic! at the Disco, Kacey Musgraves, and Weezer. The album was released on November 15, 2019, on digital, CD and vinyl formats, it consisted of seven songs along with a remix of 'Reindeer(s) Are Better Than People' from the original Frozen. The deluxe edition features a second disc of score tracks by composer Christophe Beck as well as cut songs and instrumentals to the seven songs in the film.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 32,
+      "artist": "",
+      "album_name": "Last Christmas - The Original Motion Picture",
+      "genre": "Soundtrack",
+      "price": 12,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/soundtrack/32_LastChristmas_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soundtrack/32_LastChristmas_1_CD.png",
+        "assets/images/CD/soundtrack/32_LastChristmas_2_CD.png"
+      ],
+      "record_label": "Sony Music Cmg",
+      "release_year": "2019",
+      "cd_no": 1,
+      "description": "Last Christmas is a 2019 romantic comedy film directed by Paul Feig and written by Bryony Kimmings and Emma Thompson, who co-wrote the story with her husband, Greg Wise. Based on the 1984 song of the same name, and inspired by the music of George Michael, the film stars Emilia Clarke as a disillusioned Christmas store worker who forms a relationship with a mysterious man (Henry Golding) and begins to fall for him; Thompson and Michelle Yeoh also star.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 33,
+      "artist": "",
+      "album_name": "Suicide Squad - The Album",
+      "genre": "Soundtrack",
+      "price": 13,
+      "stars": 4.9,
+      "image_front": "assets/images/CD/soundtrack/33_SuicideSquad_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soundtrack/33_SuicideSquad_1_CD.png"
+      ],
+      "record_label": "Atlantic",
+      "release_year": "2016",
+      "cd_no": 1,
+      "description": "Suicide Squad: The Album is the soundtrack album to the film of the same name. It was released on August 5, 2016, by Atlantic Records. A separate film score album, titled Suicide Squad: Original Motion Picture Score and composed by Steven Price, was released on August 8, 2016, by WaterTower Music. The digital edition of the film score album contains eight bonus tracks. It received mixed reviews by critics, but the Collector's Edition received a Grammy Award nomination for Best Compilation Soundtrack for Visual Media at the 2017 ceremony. It won the 2017 Kids' Choice Awards for Favorite Soundtrack.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 34,
+      "artist": "",
+      "album_name": "The Lion King - Original Motion Picture Soundtrack",
+      "genre": "Soundtrack",
+      "price": 9,
+      "stars": 4.2,
+      "image_front": "assets/images/CD/soundtrack/34_LionKing_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soundtrack/34_LionKing_1_CD.png"
+      ],
+      "record_label": "Walt Disney Records",
+      "release_year": "2019",
+      "cd_no": 1,
+      "description": "The Lion King —like the original 1994 version—features unforgettable music by an award-winning team, including Oscar and GRAMMY-winning superstar Elton John and Oscar and GRAMMY-winning lyricist Tim Rice, who’ve written an uplifting new song, “Never Too Late,” performed by John, that features an African choir and will appear in the film’s end credits and also on the Walt Disney Records original motion picture soundtrack.“Just hearing that music strikes you deeply,” Favreau said. “Even if you don’t know the film or stage show, there is a spiritual strength in it. But if you know the film, and if you grew up with this music—now it can suddenly and immediately evoke the story itself, as well as all the connected memories and emotions that you have from your own past experience with ‘The Lion King,’ or from the time of your life that you were in, or your childhood, or the life events it’s connected to.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 35,
+      "artist": "",
+      "album_name": "No Time To Die Soundtrack",
+      "genre": "Soundtrack",
+      "price": 14,
+      "stars": 3.7,
+      "image_front": "assets/images/CD/soundtrack/35_JamesBond_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soundtrack/35_JamesBond_1_CD.png"
+      ],
+      "record_label": "Decca",
+      "release_year": "2021",
+      "cd_no": 1,
+      "description": "The official soundtrack to the latest James Bond film, No Time To Die (2020). Recorded in collaboration with Academy and Grammy Award-winning composer Hans Zimmer.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 36,
+      "artist": "",
+      "album_name": "Pete's Dragon Soundtrack",
+      "genre": "Soundtrack",
+      "price": 11,
+      "stars": 2.7,
+      "image_front": "assets/images/CD/soundtrack/36_PeteDragon_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soundtrack/36_PeteDragon_1_CD.jpg"
+      ],
+      "record_label": "Walt Disney Records",
+      "release_year": "2016",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 37,
+      "artist": "Sam Smith",
+      "album_name": "Love Goes",
+      "genre": [
+        "RnB",
+        "Funk/Soul"
+      ],
+      "price": 14,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/r&b/37_SamSmith_front_CD.png",
+      "image_album": [
+        "assets/images/CD/r&b/37_SamSmith_1_CD.png"
+      ],
+      "record_label": "Capitol",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "Love Goes is the third studio album by English singer Sam Smith. It was released on 30 October 2020 through Capitol Records. The album was originally planned to be titled To Die For and was due for release in June 2020 but was delayed amid the COVID-19 pandemic. Smith also felt it was insensitive to use the word 'die' due to what many people were going through. The album won a GLAAD Media Award in the Outstanding Music Artist category in April 2021.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 38,
+      "artist": "P!NK",
+      "album_name": "M!ssundaztood",
+      "genre": [
+        "RnB",
+        "Pop"
+      ],
+      "price": 11,
+      "stars": 4.1,
+      "image_front": "assets/images/CD/r&b/38_Pink_front_CD.png",
+      "image_album": [
+        "assets/images/CD/r&b/38_Pink_1_CD.png"
+      ],
+      "record_label": "Sony Music",
+      "release_year": "2002",
+      "cd_no": 1,
+      "description": "M!ssundaztood is the follow-up to Pink's platinum selling debut. On Can't Take Me Home Pink established herself as one of the biggest R&B/pop acts of 2000; a status she later confirmed by stealing the limelight from fellow divas-with-attitude Missy Elliott, Mya and Christina Aguilera on their No. 1 cover of 'Lady Marmalade'. M!ssundaztood, however, reveals an ambition that extends far beyond the massed ranks of R&B's feisty female fraternity. Pink wants to be a pop star, pure and simple. Consequently, as well as the tried and tested R&B groove of first single 'Get The Party Started' and funky hip-hop of 'Respect', she adds a random yet brilliant selection of full-blown radio rock ('18 Wheeler', 'Numb'), sassy pop ('M!ssundaztood') and emotionally charged laments ('Dear Diary', 'Family Portrait', 'Eventually'). ",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 11
+    },
+    {
+      "id": 39,
+      "artist": "Alicia Keys",
+      "album_name": "Girl On Fire",
+      "genre": [
+        "RnB",
+        "Funk/Soul"
+      ],
+      "price": 11,
+      "stars": 4.7,
+      "image_front": "assets/images/CD/r&b/39_AliciaKeys_front_CD.png",
+      "image_album": [
+        "assets/images/CD/r&b/39_AliciaKeys_1_CD.png"
+      ],
+      "record_label": "RCA Records",
+      "release_year": "2012",
+      "cd_no": 1,
+      "description": "Girl on Fire is the fifth studio album by American singer and songwriter Alicia Keys. It was released on November 22, 2012, being Keys' first release with RCA Records following Sony Music Entertainment's decision to close J Records during a company reshuffle. The album is an R&B album with elements of different musical styles, including rock, electro, reggae and hip hop. It features a largely minimalist production, includes piano-driven songs and balances traditional R&B with atypical chords and melodic changes.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 40,
+      "artist": "Amy Winehouse",
+      "album_name": "Back To Black",
+      "genre": "Funk/Soul",
+      "price": 10,
+      "stars": 4.8,
+      "image_front": "assets/images/CD/soul/40_AmyWinehouse_front_CD.png",
+      "image_album": [
+        "assets/images/CD/soul/40_AmyWinehouse_1_CD.png"
+      ],
+      "record_label": "Universal Music",
+      "release_year": "2006",
+      "cd_no": 1,
+      "description": "The story of Back to Black is one in which celebrity and the potential of commercial success threaten to ruin Amy Winehouse, since the same insouciance and playfulness that made her sound so special when she debuted could easily have been whitewashed right out of existence for this breakout record. (That fact may help to explain why fans were so scared by press allegations that Winehouse had deliberately lost weight in order to present a slimmer appearance.) Although Back to Black does see her deserting jazz and wholly embracing contemporary R&B, all the best parts of her musical character emerge intact, and actually, are all the better for the transformation from jazz vocalist to soul siren. With producer Salaam Remi returning from Frank, plus the welcome addition of Mark Ronson (fresh off successes producing for Christina Aguilera and Robbie Williams), Back to Black has a similar sound to Frank but much more flair and spark to it. Winehouse was inspired by girl group soul of the '60s, and fortunately Ronson and Remi are two of the most facile and organic R&B producers active. (They certainly know how to evoke the era too; Remi's 'Tears Dry on Their Own' is a sparkling homage to the Motown chestnut 'Ain't No Mountain High Enough' and Ronson summons a host of Brill Building touchstones on his tracks.) ",
+      "songs": [
+        ""
+      ],
+      "favorite": true,
+      "in_cart": false,
+      "quantity": 3,
+      "quantity_price": 30
+    },
+    {
+      "id": 41,
+      "artist": "Billy Ocean",
+      "album_name": "The Very Best Of",
+      "genre": "RnB",
+      "price": 8,
+      "stars": 4.1,
+      "image_front": "assets/images/CD/r&b/41_BillyOcean_front_CD.png",
+      "image_album": [
+        "assets/images/CD/r&b/41_BillyOcean_1_CD.png"
+      ],
+      "record_label": "Sony Music",
+      "release_year": "2017",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 42,
+      "artist": "Boney M.",
+      "album_name": "Nightflight To Venus",
+      "genre": "Disco",
+      "price": 8,
+      "stars": 3.7,
+      "image_front": "assets/images/CD/disco/42_BoneyM_front_CD.png",
+      "image_album": [
+        "assets/images/CD/disco/42_BoneyM_1_CD.png"
+      ],
+      "record_label": "Sony BMG Music Entertainment",
+      "release_year": "2007",
+      "cd_no": 1,
+      "description": "2007 digitally re-mastered and expanded reissue of Boney M.'s third album, originally released in 1978, featuring two bonus tracks: 'Mary's Boy Child/Oh My Lord' and 'Dancing in the Street'. This Euro-Disco quartet were put together by producer/songwriter Frank Farian and their albums and singles were aimed directly at the dance floors across the world. Boney M.'s sound featured male/female harmony vocals, a stomping Disco beat, swooping strings, funky guitar and hook-filled melodies that are still fondly remembered by millions of fans worldwide. After Boney M, Farian's next successful project was the equally popular but ill-fated Milli Vanilli. 12 tracks including 'Rasputin', 'Rivers of Babylon' and a cover of Neil Young's 'Heart of Gold'. Faria.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 43,
+      "artist": "CALVIN HARRIS",
+      "album_name": "Ready For The Weekend",
+      "genre": "Disco",
+      "price": 11,
+      "stars": 3.2,
+      "image_front": "assets/images/CD/disco/43_CalvinHarris_front_CD.png",
+      "image_album": [
+        "assets/images/CD/disco/43_CalvinHarris_1_CD.png"
+      ],
+      "record_label": "Sony Music",
+      "release_year": "2009",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ],
+      "in_cart": false,
+      "quantity": 4,
+      "quantity_price": 44
+    },
+    {
+      "id": 44,
+      "artist": "Dua Lipa",
+      "album_name": "Future Nostalgia",
+      "genre": [
+        "Disco",
+        "Pop"
+      ],
+      "price": 14,
+      "stars": 3.9,
+      "image_front": "assets/images/CD/disco/44_DuaLipa_front_CD.png",
+      "image_album": [
+        "assets/images/CD/disco/44_DuaLipa_1_CD.png"
+      ],
+      "record_label": "Warner Records",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "Future Nostalgia is the second studio album by English singer Dua Lipa, released on 27 March 2020 by Warner Records. Lipa enlisted writers and producers such as Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters & Strangerz, and Koz in order to create a 'nostalgic' pop and disco record with influences from dance-pop and electronic music, inspired by the music that Lipa enjoyed during her childhood.The album spawned five singles, along with the title track as a promotional single. 'Don't Start Now' was released on 31 October 2019, as the album's lead single, attaining both critical and commercial success. The song became her first top-three entry on the Billboard Hot 100 chart. 'Physical' and 'Break My Heart' were released as the second and third singles, respectively, both reaching the top 10 on the UK Singles Chart. 'Hallucinate' and a remix of 'Levitating' featuring DaBaby were released as the fourth and fifth singles on 17 July and 1 October 2020, respectively; the latter earned the album its second top-five single on the Hot 100 and the third top-ten of Lipa's career, following 'New Rules' (2017). The album was originally scheduled to be released on 3 April 2020, but was moved forward after leaking in its entirety two weeks earlier. To promote the album, Lipa is slated to embark on the Future Nostalgia Tour, commencing in September 2021.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 45,
+      "artist": "Barry White",
+      "album_name": "Love's Theme",
+      "genre": [
+        "Disco",
+        "Funk/Soul"
+      ],
+      "price": 8,
+      "stars": 4,
+      "image_front": "assets/images/CD/disco/45_BarryWhite_front_CD.png",
+      "image_album": [
+        "assets/images/CD/disco/45_BarryWhite_1_CD.png",
+        "assets/images/CD/disco/45_BarryWhite_2_CD.png"
+      ],
+      "record_label": "Mercury Records/UMe",
+      "release_year": "2018",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 46,
+      "artist": "Nina Simone",
+      "album_name": "Fodder On My Wings",
+      "genre": "Jazz/Blues",
+      "price": 11,
+      "stars": 4,
+      "image_front": "assets/images/CD/jazz/46_NinaSimone_front_CD.png",
+      "image_album": [
+        "assets/images/CD/jazz/46_NinaSimone_1_CD.png"
+      ],
+      "record_label": "Verve Records",
+      "release_year": "2020",
+      "cd_no": 1,
+      "description": "1982 album by the American singer, pianist and songwriter. The album is one of Simone's most introspective and personal works, with songs about her father's death and her (not always pleasant) stay in Liberia, Trinidad and Switzerland.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 47,
+      "artist": "Stacey Kent",
+      "album_name": "Tenderly",
+      "genre": "Jazz/Blues",
+      "price": 11,
+      "stars": 4.2,
+      "image_front": "assets/images/CD/jazz/47_StaceyKent_front_CD.png",
+      "image_album": [
+        "assets/images/CD/jazz/47_StaceyKent_1_CD.png"
+      ],
+      "record_label": "OKeh",
+      "release_year": "2015",
+      "cd_no": 1,
+      "description": "TENDERLY, an intimate collection of standards, sees Grammy-nominated American Jazz singer Stacey Kent revisit the Great American Songbook, the repertoire for which she first became known. The album sees Stacey performing alongside legendary composer/guitarist, Roberto Menescal - one of Brazil's most important 20th Century musical figures, founding father of Bossa Nova, record producer, and winner of a Lifetime Achievement Award at the 2014 Latin Grammy Awards.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 48,
+      "artist": "Art Pepper",
+      "album_name": "Art Pepper Meets The Rhythm Section",
+      "genre": "Jazz/Blues",
+      "price": 8,
+      "stars": 3.7,
+      "image_front": "assets/images/CD/jazz/48_ArtPepper_front_CD.png",
+      "image_album": [
+        "assets/images/CD/jazz/48_ArtPepper_1_CD.png"
+      ],
+      "record_label": "Concord Records",
+      "release_year": "2006",
+      "cd_no": 1,
+      "description": "Art Pepper Meets the Rhythm Section is a 1957 jazz album by saxophonist Art Pepper with Red Garland, Paul Chambers, and Philly Joe Jones, who were the rhythm section for Miles Davis's quintet at the time. The album is considered a milestone in Pepper's career.According to Pepper, the album was recorded under enormous pressure, as he first learned of the recording session the morning he was due in the studio, and he had never met the other musicians, all of whom he greatly admired. He was playing on an instrument in a bad state of repair, and was suffering from a drug problem.  Purportedly, Pepper had not played the saxophone for some time, either for two weeks (according to the liner notes), or six months (according to Pepper's autobiography Straight Life).  However, the discography in Straight Life indicates that Pepper had recorded many sessions in the previous weeks, including one five days earlier.",
+      "songs": [
+        ""
+      ]
+    },
+    {
+      "id": 49,
+      "artist": "GRACHAN MONCUR III",
+      "album_name": "Some Other Stuff",
+      "genre": "Jazz/Blues",
+      "price": 8,
+      "stars": 3,
+      "image_front": "assets/images/CD/jazz/49_GrachanMoncur_front_CD.png",
+      "image_album": [
+        "assets/images/CD/jazz/49_GrachanMoncur_1_CD.png"
+      ],
+      "record_label": "Blue Note",
+      "release_year": "2009",
+      "cd_no": 1,
+      "description": "  Grachan Moncur III, Some Other Stuff. Blue Note's version of experimental jazz in the '60s was rooted in tradition and played with uncanny empathy and a looseness that belied the precision and intricacy of the music. These four varied compositions could not have beenplayed by anyone other than Wayne Shorter, Herbie Hancock, Cecil McBee, and Tony Williams with anywhere near the same results. This is a fresh, bold masterpiece that sounds like it was recorded yesterday rather than 44 years ago. Remastered by Rudy Van Gelder from the original analog tapes.",
+      "songs": [
+        "1. Gnostic - 11:42",
+        "2. Thandiwa - 8:17",
+        "3. The Twins - 12:53",
+        "4. Nomadic - 7:43"
+      ],
+      "in_cart": false,
+      "quantity": 4,
+      "quantity_price": 32
+    },
+    {
+      "id": 50,
+      "artist": "Camille Bertault",
+      "album_name": "Pas De Geant",
+      "genre": "Jazz/Blues",
+      "price": 10,
+      "stars": 3.2,
+      "image_front": "assets/images/CD/jazz/50_CamilleBertault_front_CD.png",
+      "image_album": [
+        "assets/images/CD/jazz/50_CamilleBertault_1_CD.png"
+      ],
+      "record_label": "OKeh",
+      "release_year": "2018",
+      "cd_no": 1,
+      "description": "",
+      "songs": [
+        ""
+      ],
+      "favorite": false,
+      "in_cart": false,
+      "quantity": 1,
+      "quantity_price": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ioana",
+      "surname": "Baltag",
+      "email": "ioana_baltag29@yahoo.com",
+      "password": "parola",
+      "password_repeat": "parola",
+      "logged_in": false
+    },
+    {
+      "name": "test",
+      "surname": "s",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "password_repeat": "123456",
+      "id": 2
+    },
+    {
+      "name": "Ioana",
+      "surname": "Baltag",
+      "email": "ioanabaltag29@gmail.com",
+      "password": "pisica",
+      "password_repeat": "pisica",
+      "id": 3
+    }
+  ],
+  "cart": []
+}

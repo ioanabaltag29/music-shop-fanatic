@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+  font-family: "homepageFont";
+  src: local("homepageFont"), url(./assets/fonts/ContrailOne-Regular.ttf);
+}
+@font-face {
+  font-family: "CdDetailsFont";
+  src: local("CdDetailsFont"), url(./assets/fonts/Assistant-Regular.ttf);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

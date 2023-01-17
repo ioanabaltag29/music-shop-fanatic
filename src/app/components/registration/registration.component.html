@@ -1,0 +1,114 @@
+<body>
+    <div class="background-img">
+        <div class="container col-3 mt-3">
+
+            <form [formGroup]="userRegForm" novalidate>
+                <div class=" mb-2">
+                    <div class="alert alert-info alert-success" role="alert" *ngIf="validMessage !== ''">
+                        {{validMessage}}
+                    </div>
+                    <div class="alert alert-info alert-danger" role="alert" *ngIf="errorMessage !== ''">
+                        {{errorMessage}}
+                    </div>
+                    <!-- * name -->
+                    <div class="mb-2">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" formControlName="name" aria-describedby="name"
+                            required minlength="4">
+
+                        <div
+                            *ngIf="userRegForm.controls['name'].invalid && (userRegForm.controls['name'].dirty || userRegForm.controls['name'].touched)">
+                            <div class="alert alert-info alert-wrong" role="alert"
+                                *ngIf="userRegForm.controls['name'].errors.required">
+                                Name is required
+                            </div>
+                            <div class="alert alert-info alert-wrong" role="alert"
+                                *ngIf="userRegForm.controls['name'].errors.minlength">
+                                Name must be at least 4 characters long
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- * surname -->
+                    <div class="mb-2">
+                        <label for="surname" class="form-label">Surname</label>
+                        <input type="text" class="form-control" id="surname" formControlName="surname"
+                            aria-describedby="surname">
+
+                        <div
+                            *ngIf="userRegForm.controls['surname'].invalid && (userRegForm.controls['surname'].dirty || userRegForm.controls['surname'].touched)">
+                            <div class="alert alert-info alert-wrong" role="alert"
+                                *ngIf="userRegForm.controls['surname'].errors.required">
+                                Surname is required
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- * email -->
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email"
+                        formControlName="email">
+
+                    <div
+                        *ngIf="userRegForm.controls['email'].invalid && (userRegForm.controls['email'].dirty || userRegForm.controls['email'].touched)">
+                        <div class="alert alert-info alert-wrong" role="alert"
+                            *ngIf="userRegForm.controls['email'].errors.required">
+                            Email is required
+                        </div>
+                        <div class="alert alert-info alert-wrong" role="alert"
+                            *ngIf="userRegForm.controls['email'].errors.pattern">
+                            Email pattern is invalid
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- * password -->
+                <div class="mb-2">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" formControlName="password"
+                        aria-describedby="password" required minlength="6">
+
+                    <div
+                        *ngIf="userRegForm.controls['password'].invalid && (userRegForm.controls['password'].dirty || userRegForm.controls['password'].touched)">
+                        <div class="alert alert-info alert-wrong" role="alert"
+                            *ngIf="userRegForm.controls['password'].errors.required">
+                            Password is required
+                        </div>
+                        <div class="alert alert-info alert-wrong" role="alert"
+                            *ngIf="userRegForm.controls['password'].errors.minlength">
+                            Password must be at least 6 characters long
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- * password_repeat -->
+                <div class="mb-2">
+                    <label for="PasswordRepeat" class="form-label">Repeat Password</label>
+                    <input type="password" class="form-control" id="PasswordRepeat" formControlName="password_repeat"
+                        aria-describedby="password_repeat">
+
+                    <div class="alert alert-info alert-wrong" role="alert" *ngIf="takenPassword">
+                        Passwords don't match
+                    </div>
+                </div>
+
+
+
+                <!-- * buttons -->
+                <div class="d-flex justify-content-around">
+                    <button type="submit" class="btn btn-primary btn-submit"
+                        [disabled]="userRegForm.pristine || userRegForm.invalid" (click)="addUser()">Submit</button>
+                    <button class="btn btn-dark btn-login" *ngIf="submitted" routerLink="/log-in">Login</button>
+                </div>
+            </form>
+            <br>
+        </div>
+
+    </div>
+
+</body>

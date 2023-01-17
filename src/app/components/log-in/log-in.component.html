@@ -1,0 +1,32 @@
+<body>
+
+    <div class="background-img">
+
+        <div class="container col-3 mt-3">
+            <form [formGroup]="logInForm" (ngSubmit)="readAllUsersFunction()">
+                <div class="alert alert-info alert-wrong" role="alert" *ngIf="logInMessage !== ''">{{logInMessage}}
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email" aria-describedby="email" formControlName="email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" aria-describedby="password"
+                        formControlName="password">
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit" class="btn btn-dark btn-login">Login</button>
+                    <br><br>
+                    <button class="btn btn-secondary btn-sign-in" routerLink="/registration">Sign
+                        In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<app-footer></app-footer>
